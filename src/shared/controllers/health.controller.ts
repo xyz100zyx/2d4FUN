@@ -1,4 +1,4 @@
-import type { IHealthable } from "../interfaces";
+import type { IHealthable } from '../interfaces';
 
 export class HealthController implements IHealthable {
   private health: number;

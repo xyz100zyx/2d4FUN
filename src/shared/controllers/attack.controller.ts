@@ -1,4 +1,4 @@
-import type { IAttackable, IHealthable } from "../interfaces";
+import type { IAttackable, IHealthable } from '../interfaces';
 
 export class AttackController implements IAttackable {
   private attackPoints: number;

@@ -1,1 +1,1 @@
-export * from "./fight-place.model";
+export * from './fight-place.model';

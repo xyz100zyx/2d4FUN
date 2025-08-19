@@ -1,4 +1,4 @@
-import type { IHealthable } from "./healthable.interfaces";
+import type { IHealthable } from './healthable.interfaces';
 
 export interface IAttackable {
   attack: (target: IHealthable) => void;

@@ -1,15 +1,15 @@
 import {
   HealthController,
   PositionController,
-} from "../../../shared/controllers";
-import { AttackController } from "../../../shared/controllers/attack.controller";
+} from '../../../shared/controllers';
+import { AttackController } from '../../../shared/controllers/attack.controller';
 import type {
   IAttackable,
   IHealthable,
   IMovable,
   IPosition,
   TPosition,
-} from "../../../shared/interfaces";
+} from '../../../shared/interfaces';
 
 export class Hero implements IHealthable, IAttackable, IMovable, IPosition {
   private healthController: HealthController;
@@ -44,7 +44,7 @@ export class Hero implements IHealthable, IAttackable, IMovable, IPosition {
 
   takeAwayHealth() {}
 
-  attack(target: IHealthable) {}
+  attack(_: IHealthable) {}
 
   getAttackPoints() {
     return this.attackController.getAttackPoints();

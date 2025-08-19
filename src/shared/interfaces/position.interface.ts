@@ -5,8 +5,8 @@ export type TPosition = {
 
 export interface IPosition {
   getPosition: () => TPosition;
-  getX: () => TPosition["x"];
-  getY: () => TPosition["y"];
+  getX: () => TPosition['x'];
+  getY: () => TPosition['y'];
 
   changePosition: (x: number, y: number) => void;
   changeX: (x: number) => void;

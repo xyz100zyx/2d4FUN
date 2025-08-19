@@ -1,4 +1,4 @@
-import type { IPosition, TPosition } from "../interfaces";
+import type { IPosition, TPosition } from '../interfaces';
 
 export class PositionController implements IPosition {
   private position: TPosition;
